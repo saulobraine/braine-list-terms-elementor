@@ -1,0 +1,19 @@
+.braine-list-terms {
+  list-style: none;
+  padding: 0;
+  display: grid;
+}
+
+.braine-list-terms, .braine-list-terms:hover, .braine-list-terms .braine-list-icon {
+  transition: .2s all;
+}
+
+.braine-list-terms .braine-list-item a {
+  display: flex;
+  align-items: center;
+}
+
+.braine-list-terms .braine-list-item:hover .braine-list-icon {
+  transition: .2s all;
+  transform: translateX(5px);
+}
